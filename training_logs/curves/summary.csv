@@ -1,0 +1,11 @@
+model,fold,epochs_run,best_epoch,best_val_loss,stop
+emcaf_organ,1,23,18,0.3834,early stopping
+emcaf_organ,2,26,21,0.4347,early stopping
+emcaf_organ,3,28,23,0.3398,early stopping
+emcaf_organ,4,19,14,0.4359,early stopping
+emcaf_organ,5,23,18,0.3108,early stopping
+dual_organ,1,31,26,0.4399,early stopping
+dual_organ,2,15,6,0.5431,early stopping
+dual_organ,3,17,12,0.4773,early stopping
+dual_organ,4,15,9,0.4824,early stopping
+dual_organ,5,48,43,0.3317,early stopping

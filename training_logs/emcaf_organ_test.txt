@@ -1,0 +1,77 @@
+--- fold 1 already trained, skipping ---
+--- fold 2 already trained, skipping ---
+--- fold 3 already trained, skipping ---
+--- fold 4 already trained, skipping ---
+--- fold 5 already trained, skipping ---
+--- Evaluating emcaf_organ fold 1 ---
+[nucleinet] Loaded PVTv2-B2 weights from E:\0_Paper9_nucleiseg\2_review\Experiments\1_comment1_organdisjoint\model\pvt_v2_b2.pth (332/332 backbone tensors matched)
+Model loaded from: trained_models\emcaf_organ\emcaf_organ_fold1_lr3.pth  (architecture: model/nucleinet.py)
+fold1: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 135/135 [00:50<00:00,  2.68it/s]
+
+Running time: 0.07453 s/image  |  FPS: 13.42
+
+Results for fold1  (135 images, model emcaf_organ_fold1_lr3):
+  Dice : 0.8402
+  AJI  : 0.5446
+  PQ   : 0.5033  (SQ: 0.7552, DQ: 0.6597)
+Per-image scores written to per_image_scores\emcaf_organ_fold1_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+--- Evaluating emcaf_organ fold 2 ---
+[nucleinet] Loaded PVTv2-B2 weights from E:\0_Paper9_nucleiseg\2_review\Experiments\1_comment1_organdisjoint\model\pvt_v2_b2.pth (332/332 backbone tensors matched)
+Model loaded from: trained_models\emcaf_organ\emcaf_organ_fold2_lr3.pth  (architecture: model/nucleinet.py)
+fold2: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [00:36<00:00,  3.60it/s]
+
+Running time: 0.06676 s/image  |  FPS: 14.98
+
+Results for fold2  (130 images, model emcaf_organ_fold2_lr3):
+  Dice : 0.8460
+  AJI  : 0.6086
+  PQ   : 0.5528  (SQ: 0.7556, DQ: 0.7299)
+Per-image scores written to per_image_scores\emcaf_organ_fold2_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+--- Evaluating emcaf_organ fold 3 ---
+[nucleinet] Loaded PVTv2-B2 weights from E:\0_Paper9_nucleiseg\2_review\Experiments\1_comment1_organdisjoint\model\pvt_v2_b2.pth (332/332 backbone tensors matched)
+Model loaded from: trained_models\emcaf_organ\emcaf_organ_fold3_lr3.pth  (architecture: model/nucleinet.py)
+fold3: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 135/135 [03:17<00:00,  1.47s/it]
+
+Running time: 0.07505 s/image  |  FPS: 13.32
+
+Results for fold3  (135 images, model emcaf_organ_fold3_lr3):
+  Dice : 0.7774
+  AJI  : 0.5333
+  PQ   : 0.4676  (SQ: 0.7204, DQ: 0.6421)
+Per-image scores written to per_image_scores\emcaf_organ_fold3_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+--- Evaluating emcaf_organ fold 4 ---
+[nucleinet] Loaded PVTv2-B2 weights from E:\0_Paper9_nucleiseg\2_review\Experiments\1_comment1_organdisjoint\model\pvt_v2_b2.pth (332/332 backbone tensors matched)
+Model loaded from: trained_models\emcaf_organ\emcaf_organ_fold4_lr3.pth  (architecture: model/nucleinet.py)
+fold4: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 135/135 [00:43<00:00,  3.13it/s]
+
+Running time: 0.07231 s/image  |  FPS: 13.83
+
+Results for fold4  (135 images, model emcaf_organ_fold4_lr3):
+  Dice : 0.7619
+  AJI  : 0.5208
+  PQ   : 0.4558  (SQ: 0.7102, DQ: 0.6145)
+Per-image scores written to per_image_scores\emcaf_organ_fold4_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+--- Evaluating emcaf_organ fold 5 ---
+[nucleinet] Loaded PVTv2-B2 weights from E:\0_Paper9_nucleiseg\2_review\Experiments\1_comment1_organdisjoint\model\pvt_v2_b2.pth (332/332 backbone tensors matched)
+Model loaded from: trained_models\emcaf_organ\emcaf_organ_fold5_lr3.pth  (architecture: model/nucleinet.py)
+fold5: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [00:38<00:00,  3.38it/s]
+
+Running time: 0.06997 s/image  |  FPS: 14.29
+
+Results for fold5  (130 images, model emcaf_organ_fold5_lr3):
+  Dice : 0.8110
+  AJI  : 0.5511
+  PQ   : 0.5018  (SQ: 0.7245, DQ: 0.6878)
+Per-image scores written to per_image_scores\emcaf_organ_fold5_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+
+Done: emcaf_organ. Per-image scores are in per_image_scores\emcaf_organ_fold<N>_lr3__test.csv

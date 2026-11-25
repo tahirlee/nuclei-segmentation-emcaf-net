@@ -1,0 +1,4 @@
+metric,emcaf_mean,emcaf_sd,emcaf_image_level,dual_mean,dual_sd,dual_image_level,diff,ci_low,ci_high,p,p_holm,folds_emcaf_higher
+dice,80.73,3.72,80.70,74.27,4.47,74.23,6.46,1.00,11.92,3.03e-02,6.06e-02,5
+aji,55.17,3.38,55.13,46.90,3.59,46.87,8.27,0.84,15.69,3.65e-02,6.06e-02,5
+pq,49.63,3.79,49.58,38.51,5.04,38.47,11.11,3.12,19.11,1.82e-02,5.45e-02,5

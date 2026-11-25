@@ -1,0 +1,67 @@
+--- Evaluating dual_organ fold 1 ---
+Model loaded from: trained_models\dual_organ\dual_organ_fold1_lr3.pth  (architecture: model/dual_decoder_unet.py)
+fold1: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 135/135 [00:50<00:00,  2.69it/s]
+
+Running time: 0.06362 s/image  |  FPS: 15.72
+
+Results for fold1  (135 images, model dual_organ_fold1_lr3):
+  Dice : 0.7787
+  AJI  : 0.4710
+  PQ   : 0.4080  (SQ: 0.7277, DQ: 0.5522)
+Per-image scores written to per_image_scores\dual_organ_fold1_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+--- Evaluating dual_organ fold 2 ---
+Model loaded from: trained_models\dual_organ\dual_organ_fold2_lr3.pth  (architecture: model/dual_decoder_unet.py)
+fold2: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [00:41<00:00,  3.15it/s]
+
+Running time: 0.06342 s/image  |  FPS: 15.77
+
+Results for fold2  (130 images, model dual_organ_fold2_lr3):
+  Dice : 0.7521
+  AJI  : 0.4749
+  PQ   : 0.3968  (SQ: 0.6971, DQ: 0.5671)
+Per-image scores written to per_image_scores\dual_organ_fold2_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+--- Evaluating dual_organ fold 3 ---
+Model loaded from: trained_models\dual_organ\dual_organ_fold3_lr3.pth  (architecture: model/dual_decoder_unet.py)
+fold3: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 135/135 [00:42<00:00,  3.18it/s]
+
+Running time: 0.06072 s/image  |  FPS: 16.47
+
+Results for fold3  (135 images, model dual_organ_fold3_lr3):
+  Dice : 0.7394
+  AJI  : 0.4828
+  PQ   : 0.3860  (SQ: 0.7038, DQ: 0.5421)
+Per-image scores written to per_image_scores\dual_organ_fold3_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+--- Evaluating dual_organ fold 4 ---
+Model loaded from: trained_models\dual_organ\dual_organ_fold4_lr3.pth  (architecture: model/dual_decoder_unet.py)
+fold4: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 135/135 [00:40<00:00,  3.35it/s]
+
+Running time: 0.05986 s/image  |  FPS: 16.70
+
+Results for fold4  (135 images, model dual_organ_fold4_lr3):
+  Dice : 0.6682
+  AJI  : 0.4098
+  PQ   : 0.3008  (SQ: 0.6711, DQ: 0.4286)
+Per-image scores written to per_image_scores\dual_organ_fold4_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+--- Evaluating dual_organ fold 5 ---
+Model loaded from: trained_models\dual_organ\dual_organ_fold5_lr3.pth  (architecture: model/dual_decoder_unet.py)
+fold5: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [00:41<00:00,  3.14it/s]
+
+Running time: 0.06581 s/image  |  FPS: 15.20
+
+Results for fold5  (130 images, model dual_organ_fold5_lr3):
+  Dice : 0.7749
+  AJI  : 0.5066
+  PQ   : 0.4340  (SQ: 0.7183, DQ: 0.5963)
+Per-image scores written to per_image_scores\dual_organ_fold5_lr3__test.csv
+
+Watershed params (prediction only): min_distance=7, min_size=10, iou_thresh=0.5
+
+Done: dual_organ. Per-image scores are in per_image_scores\dual_organ_fold<N>_lr3__test.csv
