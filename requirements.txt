@@ -1,0 +1,12 @@
+# Python 3.9+; install the PyTorch build that matches your CUDA version first (https://pytorch.org)
+torch
+torchvision
+timm
+numpy
+scipy
+scikit-image
+pillow
+imageio
+tifffile
+tqdm
+thop          # only for analysis/profile_all_variants.py
