@@ -1,14 +1,8 @@
 # EMCAF-Net on NuInsSeg
 
 Code for training and evaluating EMCAF-Net (PVTv2-B2 encoder with edge-aware multi-scale fusion (EMF) and
-contextual attention fusion (CAF) in the decoder) for binary nuclei segmentation on the **NuInsSeg** dataset.
-Nucleus instances are recovered from the predicted binary mask with a fixed marker-controlled watershed.
-This repository covers NuInsSeg; the code for CryoNuSeg and MoNuSeg will be added separately.
+contextual attention fusion (CAF) in the decoder) for nuclei segmentation. 
 
-It contains everything needed to reproduce the NuInsSeg results: the split construction (official five-fold
-split and organ-disjoint five-fold split), offline augmentation, training of EMCAF-Net, its ablation variants
-and the Dual decoder U-Net baseline, evaluation (Dice, AJI, PQ), boundary metrics, paired statistics and
-model profiling.
 
 ## Repository structure
 
