@@ -1,4 +1,4 @@
-# EMCAF-Net on NuInsSeg
+# EMCAF-Net for Nuclei Segmentaiton in Histopathology Images
 
 Code for training and evaluating EMCAF-Net (PVTv2-B2 encoder with edge-aware multi-scale fusion (EMF) and
 contextual attention fusion (CAF) in the decoder) for nuclei segmentation. 
